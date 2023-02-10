@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap");
+:root {
+  --text-main-color-light: #FFFFFF;
+  --text-main-color-dark: #707070;
+  --text-title-color-dark: #603809;
+  --button-color: #c85107;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: var(--text-main-color-light);
+  margin: 0;
+  z-index: -105;
+  position: relative;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: "Playfair Display", serif;
+  padding: 14px 26px 13px 26px;
+  border-radius: 50px;
+  background-color: var(--button-color);
+  cursor: pointer;
+  border: 0px;
+}
+
+.global-wrapper {
+  position: relative;
+  max-width: 1366px;
+  padding: 15px 25px 0 25px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.darken-bg {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.897), rgba(202, 77, 98, 0));
+  width: 100%;
+  height: 223.38px;
+  z-index: -5;
+  position: absolute;
+  left: 0;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.header-bg img {
+  width: 424px;
+  z-index: -10;
+}
+
+.general-title {
+  color: var(--text-title-color-dark);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.general-info {
+  color: var(--text-main-color-dark);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: justify;
+}

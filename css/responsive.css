@@ -1,0 +1,98 @@
+@media (min-width: 375px) {
+  .global-wrapper {
+    padding: 20px 93px 0 93px;
+    z-index: -10;
+  }
+  .header-bg img {
+    width: 1552px;
+  }
+  .darken-bg {
+    height: 853px;
+  }
+  .general-title {
+    font-size: 54px;
+  }
+  .general-info {
+    font-size: 20px;
+  }
+  .header {
+    padding-bottom: 41px;
+  }
+  .header-title {
+    font-size: 35px;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .header-sing {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .header-sing p {
+    padding-right: 35px;
+  }
+  .header-burger {
+    display: none;
+  }
+  .header-greeting-text {
+    max-width: 527px;
+    padding-top: 116px;
+    padding-bottom: 95px;
+  }
+  .header-greeting-text div {
+    display: block;
+  }
+  .greeting-text-intro {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .greeting-text-title {
+    font-size: 220px;
+    font-weight: 400;
+    line-height: 291px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .greeting-text-main {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .order-button {
+    height: inherit;
+    display: block;
+  }
+  .discover {
+    display: flex;
+    padding-top: 71px;
+    position: relative;
+  }
+  .discover-text {
+    max-width: 585px;
+  }
+  .discover-image img {
+    max-width: 100%;
+  }
+  .discover-bg {
+    display: block;
+    position: absolute;
+    top: 321px;
+    left: -93px;
+  }
+  .blends-title {
+    text-align: center;
+  }
+  .blends-info {
+    text-align: center;
+  }
+}

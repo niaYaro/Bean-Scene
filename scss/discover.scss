@@ -1,0 +1,19 @@
+.discover {
+    padding-top: 15px;
+    color: var(--text-main-color-dark);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.discover-text {
+    max-width: 324px;
+}
+.discover-image {
+    grid-row: 1;
+    margin: auto;
+    img {
+        max-width: 224px;
+    }
+}
+.discover-bg {
+    display: none;
+}
