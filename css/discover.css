@@ -12,6 +12,7 @@
 .discover-image {
   grid-row: 1;
   margin: auto;
+  padding-top: 20px;
 }
 .discover-image img {
   max-width: 224px;

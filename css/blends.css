@@ -1,8 +1,41 @@
+.blends {
+  padding-bottom: 70px;
+  color: black;
+}
+
 .blends-title {
   padding-top: 15px;
 }
 
-.blends-gallery {
-  height: 250px;
-  background-color: cadetblue;
+.blends-gallery-fs {
+  display: none;
+}
+
+.blends-gallery-slide {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.blends-gallery-slide button {
+  margin: -25px auto;
+}
+
+.gallery-blend-box {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blends-bg-color);
+}
+.gallery-blend-box img {
+  position: static;
+  max-width: 268.5px;
+}
+
+.blend-title {
+  padding-top: 14px;
+}
+
+.blend-content {
+  padding: 6px 0;
 }

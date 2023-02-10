@@ -1,8 +1,42 @@
+.blends {
+    padding-bottom: 70px;
+    color: black;
+}
 .blends-title {
     padding-top: 15px;
 }
 
-.blends-gallery {
-    height: 250px;
-    background-color: cadetblue;
+.blends-gallery-fs {
+    display: none;
+}
+.blends-gallery-wrapper {
+}
+.blends-gallery-slide {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    button {
+        margin: -25px auto;
+    }
+}
+.gallery-blend-box {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // max-width: 280px;
+    background-color: var(--blends-bg-color);
+    // margin-right: 20px;
+    img {
+        position: static;
+        // display: block;
+        max-width: 268.5px;
+        // min-width: 268.5px;
+    }
+}
+.blend-title {
+    padding-top: 14px;
+}
+.blend-content {
+    padding: 6px 0;
 }

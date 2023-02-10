@@ -5,16 +5,17 @@
     --text-main-color-dark: #707070;
     --text-title-color-dark: #603809;
     --button-color: #c85107;
+    --blends-bg-color: #FFF9F1;
 }
 body {
     font-family: 'Playfair Display', serif;
     color: var(--text-main-color-light);
     margin: 0;
-    z-index: -105;
     position: relative;
+    z-index: -105;
     // background-color: springgreen;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 ul {

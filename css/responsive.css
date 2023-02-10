@@ -11,8 +11,10 @@
   }
   .general-title {
     font-size: 54px;
+    padding: 15px 0;
   }
   .general-info {
+    padding: 15px 0;
     font-size: 20px;
   }
   .header {
@@ -26,6 +28,7 @@
   }
   .header-sing {
     display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: 500;
     line-height: 19px;
@@ -67,6 +70,7 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 25px;
   }
   .order-button {
     height: inherit;
@@ -74,7 +78,7 @@
   }
   .discover {
     display: flex;
-    padding-top: 71px;
+    padding-top: 115px;
     position: relative;
   }
   .discover-text {
@@ -88,6 +92,13 @@
     position: absolute;
     top: 321px;
     left: -93px;
+    z-index: -15;
+  }
+  .blends-gallery-fs {
+    display: block;
+  }
+  .blends-gallery-mb {
+    display: none;
   }
   .blends-title {
     text-align: center;
