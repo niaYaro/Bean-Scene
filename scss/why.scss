@@ -1,0 +1,49 @@
+.why {
+    position: relative;
+}
+.why-bg {
+    display: none;
+    position: absolute;
+    top: -140px;
+    right: -93px;
+    transform: rotateY(180deg);
+}
+.why-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.why-advantage:hover {
+    background-color: var(--blends-bg-hover-color);
+}
+.why-advantage {
+    background-color: var(--blends-bg-color);
+    padding: 20px;
+}
+.advantage-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.advantage-title {
+    text-align: center;
+    color: var(--text-title-color-dark);
+}
+.advantage-info {
+    text-align: center;
+    color: var(--text-main-color-dark);
+    max-width: 176px;
+}
+.why-get {
+    color: var(--button-color);
+    text-align: center;
+    font-size: 30px;
+}
+.why-get-button {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.why-info {
+    // text-align: center;
+}

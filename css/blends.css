@@ -1,5 +1,5 @@
 .blends {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   color: black;
 }
 
@@ -9,6 +9,14 @@
 
 .blends-gallery-fs {
   display: none;
+}
+
+.mobile-blend {
+  padding-top: 15px;
+}
+
+.blends-gallery-pagination .swiper-pagination-bullet-active {
+  background-color: var(--button-color);
 }
 
 .blends-gallery-slide {

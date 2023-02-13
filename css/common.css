@@ -5,6 +5,7 @@
   --text-title-color-dark: #603809;
   --button-color: #c85107;
   --blends-bg-color: #FFF9F1;
+  --blends-bg-hover-color: #FFEED8;
 }
 
 body {
@@ -30,6 +31,7 @@ button {
   background-color: var(--button-color);
   cursor: pointer;
   border: 0px;
+  color: var(--text-main-color-light);
 }
 
 .global-wrapper {

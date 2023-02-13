@@ -104,6 +104,9 @@
         z-index: -15;
     }
     // * BLENDS
+    .blends {
+        padding-bottom: 70px;
+    }
     .blends-gallery-fs {
         display: block;
     }
@@ -115,5 +118,52 @@
     }
     .blends-info {
         text-align: center;
+    }
+    // * WHY
+    .why-bg {
+        display: block;
+    }
+    .why-title {
+        text-align: center;
+    }
+    .why-info {
+        text-align: center;
+    }
+    .why-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .why-advantage {
+        padding: 40px;
+    }
+    // *ORDER
+    .order-bg {
+        // position: absolute;
+        // z-index: -10;
+        // left: -93px;
+        img {
+            max-width: 1366px;
+        }
+    }
+    .order-bg-cup {
+        display: block;
+    }
+    .order-bg-beans {
+        display: block;
+    }
+    .order-content {
+        // z-index: 10;
+        padding: 135px 0 131px 0;
+        max-width: 575px;
+    }
+    .order-content-title {
+        font-size: 54px;
+        line-height: 72px;
+    }
+    .order-content-text {
+        padding: 22px 0;
+        line-height: 34px;
+        font-size: 20px;
     }
 }

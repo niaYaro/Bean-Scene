@@ -5,7 +5,9 @@
     --text-main-color-dark: #707070;
     --text-title-color-dark: #603809;
     --button-color: #c85107;
+    // --swiper-theme-color: #c85107;
     --blends-bg-color: #FFF9F1;
+    --blends-bg-hover-color: #FFEED8;
 }
 body {
     font-family: 'Playfair Display', serif;
@@ -28,6 +30,7 @@ button {
     background-color: var(--button-color);
     cursor: pointer;
     border: 0px;
+    color: var(--text-main-color-light);
 }
 .global-wrapper {
     // background-color: wheat;
