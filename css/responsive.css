@@ -17,6 +17,9 @@
     padding: 15px 0;
     font-size: 20px;
   }
+  .content-text {
+    max-width: 1000px;
+  }
   .header {
     padding-bottom: 41px;
   }
@@ -126,8 +129,16 @@
   .why-advantage {
     padding: 40px;
   }
+  .order {
+    margin-top: 82px;
+  }
   .order-bg img {
     max-width: 1366px;
+  }
+  .order-bg-cover {
+    height: 574px;
+    width: 1366px;
+    left: -93px;
   }
   .order-bg-cup {
     display: block;
@@ -139,13 +150,91 @@
     padding: 135px 0 131px 0;
     max-width: 575px;
   }
-  .order-content-title {
+  .content-title {
     font-size: 54px;
     line-height: 72px;
   }
-  .order-content-text {
+  .content-text {
     padding: 22px 0;
     line-height: 34px;
     font-size: 20px;
+  }
+  .feedback {
+    padding: 82px 0 0 0;
+  }
+  .feedback-bg-img-right {
+    display: block;
+  }
+  .feedback-bg-img-left {
+    display: block;
+  }
+  .feedback-swiper-fs {
+    max-width: 980px;
+  }
+  .feedback-data {
+    padding-bottom: 100px;
+  }
+  .feedback-quote {
+    padding: 110px 0 20px 29px;
+    font-size: 220px;
+  }
+  .feedback-text {
+    padding: 0 100px 28px 100px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .feedback-client-data h4 {
+    font-size: 32px;
+  }
+  .feedback-client-data p {
+    font-size: 20px;
+  }
+  .feedback-button-next {
+    background-color: #F9C06A;
+    padding: 5px 15px;
+    margin-right: 0px;
+  }
+  .feedback-button-prev {
+    background-color: #F9C06A;
+    padding: 5px 15px;
+    margin-left: 0px;
+  }
+  .suscribe {
+    margin-top: 82px;
+  }
+  .suscribe-content {
+    padding: 80px 0;
+  }
+  .suscribe-bg img {
+    max-width: 1366px;
+  }
+  .suscribe-bg-cover {
+    height: 574px;
+    width: 1366px;
+    left: -93px;
+  }
+  .client-data {
+    min-width: 505px;
+  }
+  .footer-bg-cup-left {
+    display: block;
+  }
+  .footer-bg-cup-right {
+    display: block;
+  }
+  .footer-content {
+    padding-top: 162px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-content-general .general-info {
+    display: block;
+  }
+  .footer-content-about {
+    display: block;
+  }
+  .footer-content-company {
+    display: block;
   }
 }

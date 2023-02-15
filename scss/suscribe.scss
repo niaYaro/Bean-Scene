@@ -1,0 +1,39 @@
+.suscribe {
+    color: var(--text-main-color-light);
+    position: relative;
+    margin-top: 25px;
+}
+.suscribe-bg-cover {
+    position: absolute;
+    background-color: #6037099b;
+    height: 261px;
+    width: 620px;
+    left: -93px;
+    z-index: -5;
+}
+.suscribe-bg {
+    position: absolute;
+    z-index: -10;
+    left: -93px;
+    img {
+        max-width: 620px;
+    }
+}
+.suscribe-content {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suscribe-send-data {
+    background-color: white;
+}
+.client-data {
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+.suscribe-button {
+    border-radius: 0;
+    max-height: 66px;
+}

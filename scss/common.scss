@@ -5,7 +5,6 @@
     --text-main-color-dark: #707070;
     --text-title-color-dark: #603809;
     --button-color: #c85107;
-    // --swiper-theme-color: #c85107;
     --blends-bg-color: #FFF9F1;
     --blends-bg-hover-color: #FFEED8;
 }
@@ -15,7 +14,6 @@ body {
     margin: 0;
     position: relative;
     z-index: -105;
-    // background-color: springgreen;
 }
 h1, h2, h3, h4, p {
     margin: 0;
@@ -33,14 +31,11 @@ button {
     color: var(--text-main-color-light);
 }
 .global-wrapper {
-    // background-color: wheat;
     position: relative;
     max-width: 1366px;
-    // height: 223.38px;
     padding: 15px 25px 0 25px;
     margin: auto;
     overflow: hidden;
-    // padding: 25px;
 }
 .darken-bg {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.897), rgba(202, 77, 98, 0));
@@ -56,7 +51,6 @@ button {
     left: 0;
     z-index: -10;
     img {
-        // position: relative;
         width: 424px;
         z-index: -10;
     }
@@ -75,6 +69,5 @@ button {
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
-    // text-align: left;
     text-align: justify;
 }

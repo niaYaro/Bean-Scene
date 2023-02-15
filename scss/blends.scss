@@ -15,7 +15,6 @@
 
 .blends-gallery-pagination {
     .swiper-pagination-bullet-active {
-        // bottom: 130px;
         background-color: var(--button-color);
     }
 }
@@ -34,14 +33,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // max-width: 280px;
     background-color: var(--blends-bg-color);
-    // margin-right: 20px;
     img {
         position: static;
-        // display: block;
         max-width: 268.5px;
-        // min-width: 268.5px;
     }
 }
 .blend-title {

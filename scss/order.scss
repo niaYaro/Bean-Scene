@@ -1,14 +1,13 @@
 .order {
     color: var(--text-main-color-light);
     position: relative;
-    // height: 1000px;
-    margin-top: 82px;
+    margin-top: 25px;
 }
 .order-bg-cover {
     position: absolute;
     background-color: #6037099b;
-    height: 574px;
-    width: 1366px;
+    height: 261px;
+    width: 620px;
     left: -93px;
     z-index: -5;
 }
@@ -34,18 +33,16 @@
     right: -93px;
 }
 .order-content {
-    // z-index: 10;
     padding: 35px 0 31px 0;
-    // max-width: 575px;
 }
-.order-content-title {
+.content-title {
     font-size: 30px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
 }
-.order-content-text {
+.content-text {
     padding: 22px 0;
     max-width: 409px;
     line-height: 22px;
@@ -57,7 +54,4 @@
 .order-content-button {
     display: flex;
     justify-content: center;
-}
-.aa {
-    color: aqua;
 }
